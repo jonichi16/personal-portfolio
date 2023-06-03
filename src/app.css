@@ -10,4 +10,6 @@ body {
 	@apply bg-slate-50 text-gray-900;
 	min-height: 100%;
 	font-family: 'Space Grotesk', sans-serif;
+	display: flex;
+	flex-direction: column;
 }
