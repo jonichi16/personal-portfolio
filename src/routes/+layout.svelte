@@ -5,7 +5,11 @@
 </script>
 
 <svelte:head>
-	<title>Jonichi | Web Developer</title>
+	<title>Jonichi | Mechanical Engineer x Web Developer</title>
+	<meta
+		name="description"
+		content="Jonichi is a mechanical engineer with a passion for programming. Explore his portfolio showcasing projects in full-stack development."
+	/>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
