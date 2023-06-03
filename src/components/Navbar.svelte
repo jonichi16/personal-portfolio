@@ -41,10 +41,10 @@
 				? 'hidden'
 				: 'block'} | md:flex md:flex-row md:gap-4"
 		>
-			<a href="#">Home</a>
+			<a href="/">Home</a>
 			<a href="#about">About Me</a>
 			<a href="#skills">Skills</a>
-			<a href="#">Projects</a>
+			<a href="#projects">Projects</a>
 			<a href="#">Contacts</a>
 		</div>
 	</nav>
