@@ -14,7 +14,7 @@
 	>
 		<div class="flex items-center justify-between">
 			<a href="/" class="flex items-center gap-2">
-				<img src={logo} alt="Jonichi" class="w-10 | md:w-12" />
+				<img src={logo} alt="Jonichi" width="48" height="48" class="w-10 | md:w-12" />
 				<p class="uppercase hidden | md:block">jonichi</p>
 			</a>
 			<svg

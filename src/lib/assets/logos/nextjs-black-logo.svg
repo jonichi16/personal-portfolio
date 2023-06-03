@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 10.087 13.6902 12.3681 11.6975 13.7163L4.90687 4.20942C4.78053 4.03255 4.5544 3.95756 4.34741 4.02389C4.14042 4.09022 4 4.28268 4 4.50004V12H5V6.06027L10.8299 14.2221C9.82661 14.7201 8.696 15 7.5 15C3.35786 15 0 11.6421 0 7.5ZM10 10V4H11V10H10Z" fill="#000000"/>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_135_797)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 32C0 14.3269 14.3269 0 32 0C49.673 0 64 14.3269 64 32C64 43.0379 58.4115 52.7706 49.9093 58.5229L20.936 17.9602C20.3969 17.2055 19.4321 16.8856 18.549 17.1686C17.6658 17.4516 17.0667 18.2728 17.0667 19.2002V51.2H21.3333V25.8572L46.2076 60.681C41.9269 62.8058 37.1029 64 32 64C14.3269 64 0 49.673 0 32ZM42.6667 42.6667V17.0667H46.9333V42.6667H42.6667Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_135_797">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
 </svg>

@@ -8,7 +8,7 @@
 	<ul class="flex flex-wrap justify-center gap-x-9 gap-y-4 px-6 md:px-8">
 		{#each icons as icon (icon.id)}
 			<li>
-				<img src={icon.src} alt={icon.alt} class="w-12" />
+				<img src={icon.src} alt={icon.alt} width="48" height="48" class="w-12" />
 			</li>
 		{/each}
 	</ul>
