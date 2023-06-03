@@ -1,5 +1,9 @@
-<div class="flex gap-x-4">
-	<a href="mailto:jonichi16@gmail.com" target="_blank">
+<script>
+	export let center = false
+</script>
+
+<div class="flex gap-x-4 {center ? 'justify-center' : null}">
+	<a href="mailto:jonichi16@gmail.com">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 fill-current | md:w-9"
 			><title>gmail</title><path
 				d="M20,18H18V9.25L12,13L6,9.25V18H4V6H5.2L12,10.25L18.8,6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"
