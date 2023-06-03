@@ -42,7 +42,7 @@
 				: 'block'} | md:flex md:flex-row md:gap-4"
 		>
 			<a href="#">Home</a>
-			<a href="#">About Me</a>
+			<a href="#about">About Me</a>
 			<a href="#">Skills</a>
 			<a href="#">Projects</a>
 			<a href="#">Contacts</a>
