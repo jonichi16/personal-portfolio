@@ -41,11 +41,11 @@
 				? 'hidden'
 				: 'block'} | md:flex md:flex-row md:gap-4"
 		>
-			<a href="/">Home</a>
-			<a href="#about">About Me</a>
-			<a href="#skills">Skills</a>
-			<a href="#projects">Projects</a>
-			<a href="#contacts">Contacts</a>
+			<a href="/" on:click={handleClick}>Home</a>
+			<a href="#about" on:click={handleClick}>About Me</a>
+			<a href="#skills" on:click={handleClick}>Skills</a>
+			<a href="#projects" on:click={handleClick}>Projects</a>
+			<a href="#contacts" on:click={handleClick}>Contacts</a>
 		</div>
 	</nav>
 </header>
