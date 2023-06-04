@@ -7,9 +7,31 @@ html {
 }
 
 body {
-	@apply bg-slate-50 text-gray-900;
+	@apply bg-gray-50 text-gray-900;
 	min-height: 100%;
 	font-family: 'Space Grotesk', sans-serif;
 	display: flex;
 	flex-direction: column;
+	overflow: overlay;
+}
+
+/* Firefox */
+* {
+	scrollbar-width: none;
+	scrollbar-color: #111827 #ffffff;
+}
+
+/* Other browsers */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #111827;
+	border-radius: 100vh;
+	border: 4px solid #ffffff;
 }
