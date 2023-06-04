@@ -3,8 +3,12 @@
 
 	let hidden = true
 
-	const handleClick = () => {
-		hidden = !hidden
+	const handleClose = () => {
+		hidden = true
+	}
+
+	const handleOpen = () => {
+		hidden = false
 	}
 </script>
 
@@ -21,16 +25,16 @@
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 24 24"
 				class="w-6 hover:cursor-pointer {hidden ? 'block' : 'hidden'} | md:hidden"
-				on:click={handleClick}
-				on:keydown={handleClick}
+				on:click={handleOpen}
+				on:keydown={handleOpen}
 				><title>menu</title><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg
 			>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				viewBox="0 0 24 24"
 				class="w-6 hover:cursor-pointer {hidden ? 'hidden' : 'block'} | md:hidden"
-				on:click={handleClick}
-				on:keydown={handleClick}
+				on:click={handleClose}
+				on:keydown={handleClose}
 				><title>close</title><path
 					d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"
 				/></svg
@@ -41,11 +45,11 @@
 				? 'hidden'
 				: 'block'} | md:flex md:flex-row md:gap-4"
 		>
-			<a href="/" on:click={handleClick}>Home</a>
-			<a href="#about" on:click={handleClick}>About Me</a>
-			<a href="#skills" on:click={handleClick}>Skills</a>
-			<a href="#projects" on:click={handleClick}>Projects</a>
-			<a href="#contacts" on:click={handleClick}>Contacts</a>
+			<a href="/" on:click={handleClose}>Home</a>
+			<a href="#about" on:click={handleClose}>About Me</a>
+			<a href="#skills" on:click={handleClose}>Skills</a>
+			<a href="#projects" on:click={handleClose}>Projects</a>
+			<a href="#contacts" on:click={handleClose}>Contacts</a>
 		</div>
 	</nav>
 </header>
