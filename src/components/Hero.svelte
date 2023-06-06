@@ -13,7 +13,7 @@
 		<SocialLinks />
 		<a
 			href="mailto:jonichi16@gmail.com"
-			class="inline-block bg-gray-900 font-bold text-xs text-gray-50 py-2 px-3 rounded | md:text-base md:py-3 md:px-4"
+			class="inline-block bg-gray-900 border-2 border-gray-900 font-bold text-xs text-gray-50 py-2 px-3 rounded transition duration-200 hover:bg-gray-50 hover:text-gray-900 | md:text-base md:py-3 md:px-4"
 			>Contact Me</a
 		>
 	</div>
