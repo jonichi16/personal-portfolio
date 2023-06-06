@@ -45,11 +45,29 @@
 				? 'hidden'
 				: 'block'} | md:flex md:flex-row md:gap-4"
 		>
-			<a href="/" on:click={handleClose}>Home</a>
-			<a href="#about" on:click={handleClose}>About Me</a>
-			<a href="#skills" on:click={handleClose}>Skills</a>
-			<a href="#projects" on:click={handleClose}>Projects</a>
-			<a href="#contacts" on:click={handleClose}>Contacts</a>
+			<a href="/" on:click={handleClose} class="hover:underline underline-offset-1 decoration-wavy"
+				>Home</a
+			>
+			<a
+				href="#about"
+				on:click={handleClose}
+				class="hover:underline underline-offset-1 decoration-wavy">About Me</a
+			>
+			<a
+				href="#skills"
+				on:click={handleClose}
+				class="hover:underline underline-offset-1 decoration-wavy">Skills</a
+			>
+			<a
+				href="#projects"
+				on:click={handleClose}
+				class="hover:underline underline-offset-1 decoration-wavy">Projects</a
+			>
+			<a
+				href="#contacts"
+				on:click={handleClose}
+				class="hover:underline underline-offset-1 decoration-wavy">Contacts</a
+			>
 		</div>
 	</nav>
 </header>
