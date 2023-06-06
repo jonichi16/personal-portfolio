@@ -4,7 +4,6 @@ import javascriptLogo from '$lib/assets/logos/javascript-logo.svg'
 import rubyLogo from '$lib/assets/logos/ruby-logo.svg'
 import railsLogo from '$lib/assets/logos/rails-logo.svg'
 import reactLogo from '$lib/assets/logos/react-logo.svg'
-import nodeLogo from '$lib/assets/logos/node-logo.svg'
 import postgresqlLogo from '$lib/assets/logos/postgresql-logo.svg'
 
 const tech = [
@@ -14,8 +13,7 @@ const tech = [
 	{ id: 4, src: rubyLogo, alt: 'Ruby' },
 	{ id: 5, src: railsLogo, alt: 'Ruby on Rails' },
 	{ id: 6, src: reactLogo, alt: 'React' },
-	{ id: 7, src: nodeLogo, alt: 'Node' },
-	{ id: 8, src: postgresqlLogo, alt: 'Postgresql' }
+	{ id: 7, src: postgresqlLogo, alt: 'Postgresql' }
 ]
 
 export default tech
