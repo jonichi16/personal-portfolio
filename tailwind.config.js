@@ -5,6 +5,15 @@ export default {
 		extend: {
 			maxHeight: {
 				102: '420px'
+			},
+			keyframes: {
+				wiggle: {
+					'0%, 100%': { transform: 'rotate(-4deg)' },
+					'50%': { transform: 'rotate(4deg)' }
+				}
+			},
+			animation: {
+				wiggle: 'wiggle 1s ease-in-out infinite'
 			}
 		}
 	},
