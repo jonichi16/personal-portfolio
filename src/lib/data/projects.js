@@ -28,7 +28,7 @@ const projects = [
 		description: 'A two player CLI game built with Ruby.',
 		src: connectFour,
 		github: 'https://github.com/jonichi16/odin-ruby-projects/tree/main/connect-four',
-		live: '',
+		live: 'https://replit.com/@jhonelvillanueva/connectfour#README.md',
 		tags: ['Ruby']
 	},
 	{
