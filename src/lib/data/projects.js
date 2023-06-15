@@ -19,7 +19,7 @@ const projects = [
 		description: 'Search a flight to book app built with Ruby on Rails.',
 		src: flightBooker,
 		github: 'https://github.com/jonichi16/flight-booker-odin',
-		live: '',
+		live: 'https://flight-booker-odin-production.up.railway.app/',
 		tags: ['Rails', 'Ruby']
 	},
 	{
