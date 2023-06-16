@@ -14,11 +14,23 @@
 		<div class="flex justify-between items-center mb-2">
 			<h3 class="font-bold text-lg | md:text-2xl">{project.name}</h3>
 			<div class="flex gap-2 | md:gap-4">
-				<a href={project.github} target="_blank">
-					<img src={githubIcon} alt="Github Link" width="24" height="24" class="w-5 | md:w-7" />
+				<a href={project.github} target="_blank" class="hover:animate-wiggle">
+					<img
+						src={githubIcon}
+						alt="Github Link"
+						width="24"
+						height="24"
+						class="w-5 hover:scale-110 | md:w-7"
+					/>
 				</a>
-				<a href={project.live} target="_blank">
-					<img src={liveIcon} alt="Live Link" width="24" height="24" class="w-5 | md:w-7" />
+				<a href={project.live} target="_blank" class="hover:animate-wiggle">
+					<img
+						src={liveIcon}
+						alt="Live Link"
+						width="24"
+						height="24"
+						class="w-5 hover:scale-110 | md:w-7"
+					/>
 				</a>
 			</div>
 		</div>
